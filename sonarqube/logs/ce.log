@@ -1,0 +1,12 @@
+2021.09.21 16:22:17 INFO  ce[][o.s.p.ProcessEntryPoint] Starting ce
+2021.09.21 16:22:17 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2021.09.21 16:22:17 INFO  ce[][o.e.p.PluginsService] no modules loaded
+2021.09.21 16:22:17 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2021.09.21 16:22:17 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2021.09.21 16:22:17 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2021.09.21 16:22:19 INFO  ce[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2021.09.21 16:22:19 INFO  ce[][o.sonar.db.Database] Create JDBC data source for jdbc:postgresql://localhost/sonarqubedb
+2021.09.21 16:22:20 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /u01/app/sonarqube
+2021.09.21 16:22:21 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2021.09.21 16:22:22 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
+2021.09.21 16:22:22 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is operational

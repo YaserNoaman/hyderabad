@@ -1,0 +1,53 @@
+2021.09.21 16:21:32 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[/ (/dev/root)]], net usable_space [4.7gb], net total_space [7.6gb], types [ext4]
+2021.09.21 16:21:32 INFO  es[][o.e.e.NodeEnvironment] heap size [495.3mb], compressed ordinary object pointers [true]
+2021.09.21 16:21:32 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [p1cVPP6TTz2xMsEJ-p_VkA]
+2021.09.21 16:21:32 INFO  es[][o.e.n.Node] version[6.8.0], pid[20424], build[default/tar/65b6179/2019-05-15T20:06:13.172855Z], OS[Linux/5.4.0-1045-aws/amd64], JVM[Ubuntu/OpenJDK 64-Bit Server VM/11.0.11/11.0.11+9-Ubuntu-0ubuntu2.20.04]
+2021.09.21 16:21:32 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/u01/app/sonarqube/temp, -XX:ErrorFile=../logs/es_hs_err_pid%p.log, -Des.enforce.bootstrap.checks=true, -Xms512m, -Xmx512m, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/u01/app/sonarqube/elasticsearch, -Des.path.conf=/u01/app/sonarqube/temp/conf/es, -Des.distribution.flavor=default, -Des.distribution.type=tar]
+2021.09.21 16:21:33 INFO  es[][o.e.p.PluginsService] loaded module [analysis-common]
+2021.09.21 16:21:33 INFO  es[][o.e.p.PluginsService] loaded module [lang-painless]
+2021.09.21 16:21:33 INFO  es[][o.e.p.PluginsService] loaded module [mapper-extras]
+2021.09.21 16:21:33 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2021.09.21 16:21:33 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2021.09.21 16:21:33 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2021.09.21 16:21:33 INFO  es[][o.e.p.PluginsService] loaded module [repository-url]
+2021.09.21 16:21:33 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2021.09.21 16:21:33 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2021.09.21 16:21:35 WARN  es[][o.e.d.c.s.Settings] [http.enabled] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+2021.09.21 16:21:36 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen] and host providers [settings]
+2021.09.21 16:21:36 INFO  es[][o.e.n.Node] initialized
+2021.09.21 16:21:36 INFO  es[][o.e.n.Node] starting ...
+2021.09.21 16:21:36 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2021.09.21 16:21:36 INFO  es[][o.e.b.BootstrapChecks] explicitly enforcing bootstrap checks
+2021.09.21 16:21:39 INFO  es[][o.e.c.s.MasterService] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {sonarqube}{p1cVPP6TTz2xMsEJ-p_VkA}{NYfrYpMQSWaJxMEijIG6bA}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}
+2021.09.21 16:21:39 INFO  es[][o.e.c.s.ClusterApplierService] new_master {sonarqube}{p1cVPP6TTz2xMsEJ-p_VkA}{NYfrYpMQSWaJxMEijIG6bA}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}, reason: apply cluster state (from master [master {sonarqube}{p1cVPP6TTz2xMsEJ-p_VkA}{NYfrYpMQSWaJxMEijIG6bA}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+2021.09.21 16:21:39 INFO  es[][o.e.n.Node] started
+2021.09.21 16:21:39 INFO  es[][o.e.g.GatewayService] recovered [0] indices into cluster_state
+2021.09.21 16:21:52 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [metadatas] creating index, cause [api], templates [], shards [1]/[0], mappings []
+2021.09.21 16:21:53 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[metadatas][0]] ...]).
+2021.09.21 16:21:53 INFO  es[][o.e.c.m.MetaDataMappingService] [metadatas/1mpw8yc4TkGFKSbKZ7oKMw] create_mapping [metadata]
+2021.09.21 16:21:53 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [components] creating index, cause [api], templates [], shards [5]/[0], mappings []
+2021.09.21 16:21:53 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[components][4]] ...]).
+2021.09.21 16:21:54 INFO  es[][o.e.c.m.MetaDataMappingService] [components/FyvwsrKgQKqmz3jj4-Pa6g] create_mapping [auth]
+2021.09.21 16:21:54 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [projectmeasures] creating index, cause [api], templates [], shards [5]/[0], mappings []
+2021.09.21 16:21:54 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[projectmeasures][4]] ...]).
+2021.09.21 16:21:54 INFO  es[][o.e.c.m.MetaDataMappingService] [projectmeasures/gQoBu0N5TOOqLubwEZBntw] create_mapping [auth]
+2021.09.21 16:21:54 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [rules] creating index, cause [api], templates [], shards [2]/[0], mappings []
+2021.09.21 16:21:54 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[rules][0]] ...]).
+2021.09.21 16:21:54 INFO  es[][o.e.c.m.MetaDataMappingService] [rules/U1TtF5b0TxSmKGAJZEST3g] create_mapping [rule]
+2021.09.21 16:21:54 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [issues] creating index, cause [api], templates [], shards [5]/[0], mappings []
+2021.09.21 16:21:54 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[issues][4]] ...]).
+2021.09.21 16:21:55 INFO  es[][o.e.c.m.MetaDataMappingService] [issues/81pPvbTdQzej6a_f5vJoRw] create_mapping [auth]
+2021.09.21 16:21:55 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [users] creating index, cause [api], templates [], shards [1]/[0], mappings []
+2021.09.21 16:21:55 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[users][0]] ...]).
+2021.09.21 16:21:55 INFO  es[][o.e.c.m.MetaDataMappingService] [users/reCbOcYcQ9iHCTJf6FXeFg] create_mapping [user]
+2021.09.21 16:21:55 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [views] creating index, cause [api], templates [], shards [5]/[0], mappings []
+2021.09.21 16:21:55 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[views][4]] ...]).
+2021.09.21 16:21:55 INFO  es[][o.e.c.m.MetaDataMappingService] [views/WBrt-QhCQl-CwQOugCy34w] create_mapping [view]
+2021.09.21 16:22:16 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [30s] to [-1]
+2021.09.21 16:22:16 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [30s] to [-1]
+2021.09.21 16:22:16 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [-1] to [30s]
+2021.09.21 16:22:16 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [-1] to [30s]
+2021.09.21 16:22:16 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [30s] to [-1]
+2021.09.21 16:22:16 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [30s] to [-1]
+2021.09.21 16:22:16 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [-1] to [30s]
+2021.09.21 16:22:16 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [-1] to [30s]
